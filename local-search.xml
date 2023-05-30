@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>博客更新状态</title>
+    <link href="/2023/05/24/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%80%81/"/>
+    <url>/2023/05/24/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%80%81/</url>
+    
+    <content type="html"><![CDATA[<h3 id="2023-05-24开发进程"><a href="#2023-05-24开发进程" class="headerlink" title="2023.05.24开发进程"></a>2023.05.24开发进程</h3><p>目前已经在腾讯云平台<del>斥巨资（7元）</del>拿到了一个一级域名：wzzblog.icu。 <del>但我还是在怀念这个ikunh的二级域名</del></p><p>现在正在进行域名的部署，估计再过<del>一段</del>亿段时间就差不多可以用了。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>technology</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>bugs</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>建站备忘与bug公告</title>
+    <link href="/2023/05/18/%E5%BB%BA%E7%AB%99%E5%A4%87%E5%BF%98%E4%B8%8Ebug%E5%85%AC%E5%91%8A/"/>
+    <url>/2023/05/18/%E5%BB%BA%E7%AB%99%E5%A4%87%E5%BF%98%E4%B8%8Ebug%E5%85%AC%E5%91%8A/</url>
+    
+    <content type="html"><![CDATA[<p>今天是这个网站正式部署在GitHub的第三天，大部分功能差不多已经改好了。这篇文章用来简单给这个过程做个备忘，顺便记录一下目前已知的bug。</p><h1 id="建站备忘"><a href="#建站备忘" class="headerlink" title="建站备忘"></a>建站备忘</h1><p>简单列一下几个步骤，详细步骤我会在后面搞几个参考链接供参考</p><h2 id="step-1"><a href="#step-1" class="headerlink" title="step 1"></a>step 1</h2><p>注册<a href="github.com">Github</a>账号，新建一个repo（仓库）</p><h2 id="step-2"><a href="#step-2" class="headerlink" title="step 2"></a>step 2</h2><p>安装所需软件：<a href="https://nodejs.org/en">nodejs</a>，<a href="https://git-scm.com/download">git</a>，<a href="http://hexo.io/">hexo</a><br>注意：</p><ul><li>nodejs最好选择lts（长效支持版）</li><li>git在国内环境不好下载，可以考虑使用淘宝源或用<a href="http://ikuuu.eu/">魔法</a></li></ul><h2 id="step-3"><a href="#step-3" class="headerlink" title="step 3"></a>step 3</h2><p>注册vercel</p><h2 id="step-4"><a href="#step-4" class="headerlink" title="step 4"></a>step 4</h2><p>注册leancode国际版</p><h2 id="剩余细节"><a href="#剩余细节" class="headerlink" title="剩余细节"></a>剩余细节</h2><h4 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h4><ul><li><a href="https://www.cnblogs.com/juzaizai/p/14472119.html">https://www.cnblogs.com/juzaizai/p/14472119.html</a></li><li><a href="https://fluid-dev.github.io/hexo-fluid-docs/start/">https://fluid-dev.github.io/hexo-fluid-docs/start/</a></li><li><a href="https://waline.js.org/">https://waline.js.org/</a></li></ul><h1 id="已知bug列表"><a href="#已知bug列表" class="headerlink" title="已知bug列表"></a>已知bug列表</h1><h3 id="评论系统"><a href="#评论系统" class="headerlink" title="评论系统"></a>评论系统</h3><ol><li>评论系统waline的服务端部署在vercel上，由于国内屏蔽了vercel.app的一系列链接导致评论区无法正常加载的问题。目前的解决方案为绑定一个自己的域名，正在处理。</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>technology</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>建站</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2023/05/16/hello-world/"/>
+    <url>/2023/05/16/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>欢迎来到<a href="https://hexo.io/">Hexo</a>!这是你的第一篇博文。检查<a href="https://hexo.io/docs/">documentation</a>来获取更多信息。如果你在使用Hexo过程中有任何问题，你可以在<a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a>找到答案或者可以在<a href="https://github.com/hexojs/hexo/issues">GitHub</a>问我。</p><h1 id="快速上手"><a href="#快速上手" class="headerlink" title="快速上手"></a>快速上手</h1><h3 id="创建一个新的博文"><a href="#创建一个新的博文" class="headerlink" title="创建一个新的博文"></a>创建一个新的博文</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>更多信息：<a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="启动本地服务"><a href="#启动本地服务" class="headerlink" title="启动本地服务"></a>启动本地服务</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>更多信息：<a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="生成网页"><a href="#生成网页" class="headerlink" title="生成网页"></a>生成网页</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>更多信息：<a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="推送至GitHub"><a href="#推送至GitHub" class="headerlink" title="推送至GitHub"></a>推送至GitHub</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>更多信息：More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><p>（原文在底下，简单汉化了一下。）</p><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
